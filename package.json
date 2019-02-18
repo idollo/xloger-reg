@@ -1,0 +1,37 @@
+{
+  "name": "xloger-reg",
+  "version": "1.0.1",
+  "preferGlobal": "true",
+  "description": "A client side of xloger for registration and filter.",
+  "author": {
+    "name": "idollo",
+    "email": "stone58@qq.com"
+  },
+  "homepage": "https://gitee.com/idollo/xloger-reg",
+  "dependencies": {
+    "commander": "2.9.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "uuid": "~3.3.2",
+    "vash": "^0.12.6",
+    "jsonfile": "^2.3.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {},
+  "bin": {
+    "xloger-reg": "./bin/xloger-reg"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:idollo/xloger.git"
+  },
+  "keywords": [
+    "loger",
+    "tracer",
+    "watcher"
+  ],
+  "license": "MIT"
+}
