@@ -26,10 +26,10 @@ program.version(pkg.version);
 var config = configloader.load();
 
 program
-    .option('-H, --host', 'XLogerServer Host. ['+config.host+']', config.host)
-    .option('-P, --port', 'XLogerServer Socket Port. ['+config.port+']', config.port)
-    .option('-B, --backend', 'broke file to store filter data. ['+config.backend+']', config.backend)
-    .option('-L, --level', 'Logger level. ['+config.level+']', config.level)
+    .option('-H, --host <host>', 'XLogerServer Host. ['+config.host+']', config.host)
+    .option('-P, --port <port>', 'XLogerServer Socket Port. ['+config.port+']', config.port)
+    .option('-B, --backend <backend>', 'broke file to store filter data. ['+config.backend+']', config.backend)
+    .option('-L, --level <level>', 'Logger level. ['+config.level+']',  config.level)
     .parse(process.argv);
 
 program.host = program.host || config.host;

@@ -1,6 +1,6 @@
 {
   "name": "xloger-reg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "preferGlobal": "true",
   "description": "A client side of xloger for registration and filter.",
   "author": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:idollo/xloger.git"
+    "url": "git@gitee.com:idollo/xloger-reg.git"
   },
   "keywords": [
     "loger",
